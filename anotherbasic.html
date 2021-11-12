@@ -2,6 +2,23 @@
 <html>
     <head>
         <title>Another basic class</title>
+        <style type="text/css">
+            li
+            {
+                font-size:30px;
+                color:white;
+                background-color:black;
+            }
+
+            #os
+            {
+                color:black;
+                background-color:white;
+                border-size:5px;
+                border-style:dotted;
+                border-color:green;
+            }
+        </style>
     </head>
     <body>
         <marquee direction="right" behavior="alternate">
@@ -11,7 +28,7 @@
         <!-- Ordered list: 1,A,a,I,i -->
         <ol type="i">
             <li>Amazon</li> <!-- ListItem -->
-            <li>Microsoft</li>
+            <li id="os">Microsoft</li>
             <li>ZOHO</li>
             <li>Flipkart</li>
         </ol>
@@ -20,7 +37,7 @@
 
         <ul type="circle">
             <li>Java</li>
-            <li>Python</li>
+            <li id="os">Python</li>
             <li>Java Script</li>
         </ul>
     </body>

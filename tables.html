@@ -2,11 +2,40 @@
 <html>
     <head>
         <title>Tables</title>
+        <style type="text/css">
+            .tab
+            {
+                background-image:url('images/bag1.jfif');
+                text-align:center;
+                color:red;
+            }
+            .tab:hover
+            {
+                background-image:url('images/bag3.jfif');
+            }
+            td:hover
+            {
+                font-size:30px;
+                background-color:black;
+                color:blue;
+            }
+            body
+            {
+                background-color:cyan;
+            }
+            .hey
+            {
+                color:black;
+                border-size:10px;
+                border-style:dotted;
+                border-color:yellow;
+            }
+        </style>
     </head>
-    <body background="images/bag1.jfif">
-        <table align="center" border="10" cellpadding="10" cellspacing="10" bgcolor="red">
+    <body>
+        <table class="tab" align="center" border="10" cellpadding="10" cellspacing="10">
             <thead>
-                <tr>
+                <tr class="hey">
                     <th>Forum Number</th>
                     <th>Forum Name</th><th>Forum Technology</th>
                     <th>Forum Head</th><th>Forum Members Count</th>
